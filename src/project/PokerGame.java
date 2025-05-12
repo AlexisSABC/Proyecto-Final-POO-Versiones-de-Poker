@@ -9,13 +9,11 @@ public abstract class PokerGame {
     protected int pot; //Bote de apuestas
 
     protected JFrame gameWindow; //Ventana de juego
-    protected ArrayList<JLabel> playersLabels; //Guarda las etiquetas de informacion de jugadores
 
     //Inicializar juego de poker
     public PokerGame(){
         cardDeck = new ArrayList<>();
         players = new ArrayList<>();
-        playersLabels = new ArrayList<>();
         gameWindow = new JFrame();
         pot = 0;
     }

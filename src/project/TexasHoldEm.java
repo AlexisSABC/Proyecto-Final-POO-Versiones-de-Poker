@@ -4,6 +4,7 @@ public class TexasHoldEm extends PokerGame{
 
     public TexasHoldEm(){
         super();
+        requestPlayers();
     }
 
     public void requestPlayers(){}
