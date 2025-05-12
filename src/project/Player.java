@@ -26,6 +26,11 @@ public class Player{
         return money;
     }
 
+    //Agregar dinero (Dinero obtenido de los botes de la partidas)
+    public void addMoney(int money){
+        this.money = money;
+    }
+
     //Recuperar el estatus del jugador (Para poder seguir jugando o no)
     public boolean getPlayerStatus(){
         return stillInGame;
