@@ -7,11 +7,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class MainGame {
-    public static void main(String[] args) {
-        TexasHoldEm texasGame = new TexasHoldEm();
-    }
-
-    /**public static void main(String[] args){
+    public static void main(String[] args){
      //Dimensiones de la ventana
      int width = 500;
      int height = 400;
@@ -109,5 +105,5 @@ public class MainGame {
      //Pintar fondo
      Container background = selectPokerWindow.getContentPane();
      background.setBackground(Color.WHITE);
-     }*/
+     }
 }
