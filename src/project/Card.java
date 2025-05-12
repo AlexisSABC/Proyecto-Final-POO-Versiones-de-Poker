@@ -43,8 +43,8 @@ public class Card{
     //Crea la carta visual
     public void generateCard(int xPosition, int yPosition, int size, String imagePath){
         //Dimensiones de la carta
-        int width = (691 / 15) * size;
-        int height = (1056 / 15) * size;
+        int width = (691 / 100) * size;
+        int height = (1056 / 100) * size;
 
         //Crear carta
         physicalCard = new JToggleButton("");

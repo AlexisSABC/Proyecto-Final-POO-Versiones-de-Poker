@@ -1,9 +1,5 @@
 package project;
 
-import javax.swing.*;
-import javax.swing.border.LineBorder;
-import java.awt.*;
-
 public class TexasHoldEm extends PokerGame{
 
     public TexasHoldEm(){
@@ -13,6 +9,7 @@ public class TexasHoldEm extends PokerGame{
     //Pide los jugadores y les asigna una cantida de dinero
     public void requestPlayers(){}
 
+    //Crear ventana de juego
     public void createGameWindow(int playersAmount){}
 
     public void betStage(){}

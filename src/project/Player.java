@@ -16,7 +16,6 @@ public class Player{
     //Inicliazar jugador
     public Player(int money){
         hand = new ArrayList<>();
-        hand.clear();
         this.money = money;
         stillInGame = true;
     }
