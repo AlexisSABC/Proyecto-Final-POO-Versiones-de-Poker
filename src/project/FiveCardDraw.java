@@ -8,7 +8,7 @@ public class FiveCardDraw extends PokerGame{
 
     public void requestPlayers(){}
 
-    public void createWindow(int playersAmount){}
+    public void createGameWindow(int playersAmount){}
 
     public void betStage(){}
 

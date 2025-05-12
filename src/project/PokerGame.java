@@ -22,7 +22,7 @@ public abstract class PokerGame {
     public abstract void requestPlayers();
 
     //Crear ventana de juego completo (Es llamado cuando ya se seleccione el numero de jugadores)
-    public abstract void createWindow(int playersAmount);
+    public abstract void createGameWindow(int playersAmount);
 
     //Fase de apuestas, el comportamiento varía según el modo de poker
     public abstract void betStage();

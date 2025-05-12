@@ -1,15 +1,19 @@
 package project;
 
+import javax.swing.*;
+import javax.swing.border.LineBorder;
+import java.awt.*;
+
 public class TexasHoldEm extends PokerGame{
 
     public TexasHoldEm(){
         super();
-        requestPlayers();
     }
 
+    //Pide los jugadores y les asigna una cantida de dinero
     public void requestPlayers(){}
 
-    public void createWindow(int playersAmount){}
+    public void createGameWindow(int playersAmount){}
 
     public void betStage(){}
 
