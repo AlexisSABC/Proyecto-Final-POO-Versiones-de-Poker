@@ -1,5 +1,17 @@
 package project;
 
+/**
+ * Proyecto final - Versiones de Poker
+ * desarrollado por:
+ *
+ * Montoya Ruiz Johab Alejandro
+ * Samaniego Aguilar Alexis
+ *
+ * Para la materia de "Programación Orientada a Objetos"
+ * Programa educativo: Ingeniería en computación.
+ * Universidad: "Universidad Autonoma de Baja California"
+ */
+
 import java.util.ArrayList;
 
 public class CardDeck{

@@ -1,5 +1,17 @@
 package project;
 
+/**
+ * Proyecto final - Versiones de Poker
+ * desarrollado por:
+ *
+ * Montoya Ruiz Johab Alejandro
+ * Samaniego Aguilar Alexis
+ *
+ * Para la materia de "Programación Orientada a Objetos"
+ * Programa educativo: Ingeniería en computación.
+ * Universidad: "Universidad Autonoma de Baja California"
+ */
+
 import java.util.*;
 
 public class Player{
@@ -27,7 +39,7 @@ public class Player{
 
     //Agregar dinero (Dinero obtenido de los botes de la partidas)
     public void addMoney(int money){
-        this.money = money;
+        this.money = this.money + money;
     }
 
     //Recuperar el estatus del jugador (Para poder seguir jugando o no)
@@ -60,6 +72,16 @@ public class Player{
     //Salir del juego
     public void fold(){
         stillInGame = false;
+        hand.clear();
+    }
+
+    //Desbloquear jugador
+    public void unlockPlayer(){
+        stillInGame = true;
+    }
+
+    //Limpiar mano de jugador
+    public void clearHand(){
         hand.clear();
     }
 
